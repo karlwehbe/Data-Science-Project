@@ -1,0 +1,128 @@
+[
+  {
+    "category_file": "categories/campaign.csv",
+    "category_label": "campaign",
+    "n_articles_in_file": 100,
+    "top10_tfidf": [
+      "mamdani",
+      "zohran",
+      "zohran mamdani",
+      "mayoral",
+      "adams",
+      "democratic",
+      "new",
+      "race",
+      "cuomo",
+      "city"
+    ],
+    "llm_summary_raw": "SUMMARY: These articles primarily focus on the New York City mayoral race, detailing the campaign of Democratic nominee Zohran Mamdani and his interactions with political rivals and supporters. They highlight his policy positions and significant lead in the race.\n\nDETAILS:\n- Zohran Mamdani, consistently identified as the Democratic nominee and a socialist front-runner, is the central figure in the New York City mayoral race discussions.\n- The articles frequently address Mamdani’s policy stances, including past controversial views on policing and his commitment to a leftist agenda, alongside efforts to engage with different community groups.\n- Key opponents in the mayoral race, such as Eric Adams and former Governor Andrew Cuomo, are discussed in relation to Mamdani, often trailing him in polls.\n- The campaign also features endorsements from prominent figures like Bernie Sanders, debates, fundraising efforts, and the strategic dynamics among candidates in the democratic race."
+  },
+  {
+    "category_file": "categories/civil_policy.csv",
+    "category_label": "civil_policy",
+    "n_articles_in_file": 50,
+    "top10_tfidf": [
+      "mamdani",
+      "zohran",
+      "zohran mamdani",
+      "plan",
+      "free",
+      "new",
+      "program",
+      "city",
+      "york",
+      "new york"
+    ],
+    "llm_summary_raw": "SUMMARY: The articles broadly discuss Zohran Mamdani, a New York City mayoral candidate and Democratic Socialist, and his wide array of policy proposals for the city. These proposals span civil policy areas such as policing, education, housing, transportation, economic regulation, and international affairs.\n\nDETAILS:\n- Mamdani's plans cover diverse aspects of New York City life, including reforms to the NYPD (e.g., abolishing the gang database, using mental health teams), changes to the city's education system (e.g., phasing out the Gifted and Talented program, hiring new teachers), and economic policies (e.g., hiking taxes, freezing rent, city-run grocery stores, free buses).\n- He also put forth proposals on international issues, such as demanding FIFA reverse its World Cup ticket pricing policies and pledging to arrest Benjamin Netanyahu if elected mayor.\n- Mamdani's plans are often characterized as controversial, expensive, or vague, frequently leading to public clashes with other political figures including Andrew Cuomo, Kathy Hochul, and Eric Adams during debates and in media reports.\n- The reporting often frames his progressive and socialist-leaning ideas by questioning their feasibility, legality, and potential implications for New York City."
+  },
+  {
+    "category_file": "categories/controversy.csv",
+    "category_label": "controversy",
+    "n_articles_in_file": 100,
+    "top10_tfidf": [
+      "mamdani",
+      "new",
+      "zohran",
+      "zohran mamdani",
+      "new york",
+      "york",
+      "mayoral",
+      "trump",
+      "city",
+      "democratic"
+    ],
+    "llm_summary_raw": "SUMMARY: These articles primarily address various controversies surrounding Zohran Mamdani, a Democratic Socialist of America candidate in the New York City mayoral race, scrutinizing his political views, associations, and campaign conduct. The coverage often highlights criticisms from other political figures and organizations, focusing on perceived contentious aspects of his candidacy.\n\nDETAILS:\n*   Mamdani's political positions are frequently discussed, including his refusal to denounce strict anti-Zionist resolutions, comments related to 9/11 and the NYPD, and his accusations against the Israeli government.\n*   Reports delve into his associations, such as with individuals labeled as terror sympathizers or an anti-gay Ugandan politician, and alleged ties of his family or campaign donors to foreign entities.\n*   His campaign is scrutinized for incidents like being \"ghosted\" by endorsers, perceived evasiveness in interviews, and alleged inconsistencies or \"flip-flops\" in his public statements.\n*   The articles detail criticisms from other prominent political figures, including Rep. Tom Suozzi, Congresswoman Alexandria Ocasio-Cortez (regarding endorsements), Kathy Hochul, and Andrew Cuomo, concerning his policies and remarks."
+  },
+  {
+    "category_file": "categories/endorsements.csv",
+    "category_label": "endorsements",
+    "n_articles_in_file": 59,
+    "top10_tfidf": [
+      "mamdani",
+      "hochul",
+      "new",
+      "new york",
+      "york",
+      "endorsement",
+      "jeffries",
+      "zohran",
+      "zohran mamdani",
+      "endorses"
+    ],
+    "llm_summary_raw": "SUMMARY: This category of articles focuses on the numerous political endorsements for Zohran Mamdani in the New York City mayoral race. A key narrative involves the widespread backing Mamdani received from prominent figures, including New York Governor Kathy Hochul, alongside discussions of internal party dynamics and policy debates surrounding his candidacy.\n\nDETAILS:\n*   Zohran Mamdani, often identified as a democratic socialist candidate, is the central political figure receiving endorsements for the New York City mayoralty.\n*   Notable endorsers include former Mayor Bill de Blasio, U.S. Representatives Jamie Raskin and Hakeem Jeffries, and most prominently, New York Governor Kathy Hochul, whose support garnered significant attention.\n*   The articles frequently highlight divisions within the Democratic party regarding Mamdani's candidacy, with some prominent leaders initially reluctant to endorse or explicitly opposing him, while others coalesced support.\n*   The endorsements are contextualized by Mamdani's progressive policy stances, such as proposals to raise taxes, past controversies including statements about the NYPD, and an unexpected mention of an endorsement from Donald Trump."
+  },
+  {
+    "category_file": "categories/governance.csv",
+    "category_label": "governance",
+    "n_articles_in_file": 100,
+    "top10_tfidf": [
+      "mamdani",
+      "new",
+      "york",
+      "new york",
+      "zohran",
+      "zohran mamdani",
+      "city",
+      "mayor",
+      "mayor elect",
+      "elect"
+    ],
+    "llm_summary_raw": "SUMMARY: This category of articles centers on Zohran Mamdani's successful mayoral campaign and subsequent election as Mayor of New York City. The narratives predominantly explore his political identity as a Democratic socialist, his projected governance, and his strong opposition to President Donald Trump.\n\nDETAILS:\n- Zohran Mamdani is consistently identified as the newly elected mayor of New York City, often highlighted for his Democratic socialist platform and background.\n- A prominent theme involves Mamdani's declared intent to resist and oppose President Donald Trump, detailing his plans to combat Trump's policies and potential threats to New York.\n- The articles discuss the immediate aftermath of Mamdani's victory, covering his transition team appointments, early administration plans, and the initial reactions to his win, including a high-profile resignation.\n- Mamdani's election is framed as a significant political event for New York City, representing a shift in its political landscape and drawing national attention regarding the future direction of Democrats."
+  },
+  {
+    "category_file": "categories/media.csv",
+    "category_label": "media",
+    "n_articles_in_file": 1,
+    "top10_tfidf": [
+      "smith",
+      "pay bills",
+      "people pay",
+      "bills day",
+      "stephen",
+      "stephen smith",
+      "bills",
+      "pay",
+      "biggest",
+      "people"
+    ],
+    "llm_summary_raw": "SUMMARY: Articles in this category examine instances where prominent media personalities, such as Stephen A. Smith, provide critical commentary on political figures and their proposed policies. A key theme involves scrutinizing the economic implications of these initiatives, often framing them through the lens of their impact on \"people who pay bills every day.\"\n\nDETAILS:\n- The discussions prominently feature media figures, like Stephen A. Smith, utilizing platforms such as podcasts to engage in political discourse.\n- The commentary frequently involves \"slamming\" or questioning the viability and funding of political initiatives proposed by figures like a Mayor-elect.\n- A central concern revolves around fiscal responsibility and the perceived burden or benefit of policies for the general populace, specifically those responsible for daily financial obligations like \"paying bills.\"\n- The framing often draws a distinction between a politician's supporters and broader segments of the public who may face different economic realities."
+  },
+  {
+    "category_file": "categories/social_cause.csv",
+    "category_label": "social_cause",
+    "n_articles_in_file": 45,
+    "top10_tfidf": [
+      "mamdani",
+      "terror",
+      "muslim",
+      "zohran",
+      "zohran mamdani",
+      "islamophobia",
+      "imam",
+      "new",
+      "mayoral",
+      "attacks"
+    ],
+    "llm_summary_raw": "SUMMARY: These articles primarily discuss Zohran Mamdani, a New York City mayoral candidate, focusing on controversies and accusations linking him to terrorism and extremism, alongside reports of Islamophobia and threats he faced. The coverage highlights intense scrutiny of his public statements and associations, particularly concerning Muslim faith, terror attacks, and community leaders.\n\nDETAILS:\n- Zohran Mamdani is frequently discussed in relation to his alleged refusal to denounce terror groups like Hamas and his association with a controversial imam (Siraj Wahhaj) described as a \"terror-linked\" unindicted co-conspirator in the 1993 World Trade Center attack.\n- Critical framing includes accusations of Mamdani being sympathetic to \"Islamism\" and \"communism,\" or his efforts to \"dismantle definition of anti-Semitism,\" drawing strong reactions from political figures and survivors of terror attacks.\n- Mamdani and his supporters frame some criticisms as \"Islamophobia\" and \"racist attacks,\" with Mamdani delivering speeches defending his Muslim faith and decrying the attacks.\n- The articles also report on \"terroristic threats\" and \"racist threats\" made against Mamdani himself, often based on his Muslim identity."
+  }
+]

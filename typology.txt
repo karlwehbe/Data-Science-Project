@@ -1,0 +1,31 @@
+Typology for News Classification
+
+1. Endorsements
+Articles whose primary focus is the public declaration of support for Zohran Mamdani by a politician, organization, labor union, or prominent individual.
+Key Focus: The act of supporting or the identity of the supporter.
+Exclusions: Campaign events (use Campaign) or policy alignment discussions (use Civil Policy).
+
+2. Civil Policy (Policy Substance)
+Articles that analyze or explain the substance and details of specific policies, legislative proposals, or ideological stances advocated by Zohran Mamdani.
+Key Focus: The "what" and "how" of a policy (e.g., universal childcare plan details, specifics of a housing law).
+Exclusions: The political strategy of debating or promoting a policy (use Campaign), or the post-election execution of policy (use Governance).
+
+3. Controversy (Political Attack/Scandal) 
+Articles that detail a scandal, negative accusation, or conflict aimed at Zohran Mamdani or his direct associations (family, key staff) with the intent to damage his character, reputation, or political standing.
+Key Focus: Conflict, scandal, ethical questions, allegations of wrongdoing, or character attacks unrelated to specific policy mechanics.
+Inclusions: Attacks by political opponents, investigations, accusations of inappropriate behavior, or fallout from controversial personal associations.
+
+4. Campaign (Strategy & Electoral Process) 
+Definition: Articles focused on the mechanics of the election process and the political strategy used to win the election.
+Key Focus: Polling results, fundraising numbers, debate performance, get-out-the-vote efforts, campaign messaging strategy, and general election coverage.
+Exclusions: Explicit endorsements (use Endorsements) or post-election transition activities (use Governance).
+
+5. Social Cause 
+Definition: Articles that discuss Zohran Mamdani in the context of broad social or cultural identity issues and historical patterns, rather than a specific political event or campaign strategy.
+Key Focus: His identity as an immigrant, Muslim, or person of color; discussions of historical racism or social justice movements in a general sense; or the cultural significance of his rise.
+Exclusions: Policy articles addressing social issues (use Civil Policy) or character attacks related to identity (use Controversy).
+
+6. Governance (Administration & Transition)
+Definition: Articles focused on the administrative activities of Zohran Mamdani after his election, covering the transition to office, appointments, and general administrative organization.
+Key Focus: Announcing transition teams, cabinet and staff appointments, meetings with governmental bodies (when focused on administrative duties), and organizational changes within the city government.
+Exclusions: Coverage of new legislative proposals or detailed policy substance (use Civil Policy).
