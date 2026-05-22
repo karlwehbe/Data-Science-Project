@@ -1,3 +1,5 @@
+# Project Summary:
+The 2025 New York City mayoral election was historic, with Zohran Mamdani becoming the city’s first Muslim and South Asian mayor-elect. This study analyzes how North American news media covered Mamdani during the election period using a dataset of 810 articles from over 50 U.S. and Canadian outlets. Articles were annotated for sentiment, topic category, and political orientation of the source.
 
 ## Data Collection Summary
 
