@@ -40,7 +40,8 @@ This repository contains:
 └── code/
     ├── article_utils.py        # Shared parsing, filtering, CSV helpers
     ├── mediastack.py           # Fetch new articles via MediaStack API
-    └── llm_summaries.py        # TF-IDF + Gemini summaries per category
+    ├── llm_summaries.py        # TF-IDF + Gemini summaries per category
+    └── classify_workflow.py    # LangGraph few-shot classifier + human-review routing
 ```
 
 ## Dataset
@@ -84,7 +85,7 @@ pip install pandas matplotlib seaborn numpy scikit-learn requests
 For optional scripts:
 
 ```bash
-pip install google-genai   # llm_summaries.py (Gemini)
+pip install google-genai langgraph   # llm_summaries.py, classify_workflow.py (Gemini)
 ```
 
 ### 2. Run the analysis notebook
@@ -117,6 +118,21 @@ python mediastack.py
 
 This fetches day-by-day results for the keyword `"Zohran Mamdani"` and saves to `articles_mediastack.json` / `.csv` without overwriting the main corpus.
 
+### 5. Classify articles with LangGraph (optional)
+
+Deploys the selected model (Gemini) with few-shot examples drawn from `categories/*.csv`, inside a LangGraph workflow that routes each article by confidence score. Labels below the threshold are written to a human-review queue.
+
+```bash
+cd code
+python classify_workflow.py --input ../articles_annotated.csv --threshold 0.75 --limit 10
+```
+
+Outputs under `output/classification/`:
+
+- `classified_accepted.csv` — high-confidence predictions
+- `human_review_queue.csv` — low-confidence items flagged for review
+- `classification_run.json` — full run summary
+
 ## Key outputs
 
 - **`analysis.ipynb`** — Distribution plots, sentiment heatmaps, source and orientation breakdowns, temporal trends
@@ -129,3 +145,4 @@ This fetches day-by-day results for the keyword `"Zohran Mamdani"` and saves to 
 2. **Annotation** — Human-coded category, sentiment, and source political orientation using the typology in `typology.txt`.
 3. **Analysis** — Descriptive statistics and visual exploration in Jupyter.
 4. **Summarization** — Category-level TF-IDF (global IDF, category TF) plus Gemini-generated thematic summaries from title + description samples.
+5. **Deployment** — Few-shot topic classification via Gemini in a LangGraph workflow with confidence-based routing; low-confidence labels are flagged for human review (`code/classify_workflow.py`).
