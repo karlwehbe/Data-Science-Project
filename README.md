@@ -129,7 +129,3 @@ This fetches day-by-day results for the keyword `"Zohran Mamdani"` and saves to 
 2. **Annotation** — Human-coded category, sentiment, and source political orientation using the typology in `typology.txt`.
 3. **Analysis** — Descriptive statistics and visual exploration in Jupyter.
 4. **Summarization** — Category-level TF-IDF (global IDF, category TF) plus Gemini-generated thematic summaries from title + description samples.
-
-## License and attribution
-
-This project was produced for academic data science coursework. Cite or credit appropriately if you reuse the annotated data or figures.
